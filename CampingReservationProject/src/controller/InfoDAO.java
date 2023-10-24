@@ -248,7 +248,7 @@ public class InfoDAO {
 		}
 	}
 
-	// 예약 사이트 번호
+	// 예약자 찾기
 	public String getInfoName(String id, String pw) throws Exception {
 
 		String sql = "select name from reservationinfo where reservation_id= ? and reservation_pw = ?";

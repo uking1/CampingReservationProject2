@@ -48,7 +48,7 @@ public class MenuViewer {
 	public static void reservationMenuView() {
 		System.out.println();
 		System.out.println("예약 정보 메뉴 번호를 입력하세요.");
-		System.out.println("1. 예약 신청 목록");
+		System.out.println("1. 내 예약현황 확인");
 		System.out.println("2. 예약 신청");
 		System.out.println("3. 예악 취소");
 		System.out.println("4. 메인으로 돌아가기");

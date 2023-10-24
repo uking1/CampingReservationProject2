@@ -63,9 +63,7 @@ public class InfoRegisterManager {
 
 		String reservation_id;
 		String reservation_pw;
-		String name;
 		String phone; // 수정 연락처
-		String reservation_date; // 수정 예약날짜
 
 		boolean flag = false;
 
