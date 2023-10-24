@@ -150,7 +150,7 @@ public class CampingReservationProjectMain {
 			System.out.println("정확한 숫자를 입력하세요.");
 
 		}
-
+//
 	}
 
 }
