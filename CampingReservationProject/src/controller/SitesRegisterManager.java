@@ -57,6 +57,7 @@ public class SitesRegisterManager {
 		System.out.println();
 		System.out.println("=================================================");
 		System.out.println("\t\t사이트 목록");
+		System.out.println("=================================================");
 		sd.getSitesTotalList();
 		System.out.println("=================================================");
 		System.out.println();
@@ -78,6 +79,7 @@ public class SitesRegisterManager {
 
 		System.out.println("=================================================");
 		System.out.println("\t\t사이트 목록");
+		System.out.println("=================================================");
 		sd.getSitesTotalList();
 		System.out.println("=================================================");
 		System.out.println();
@@ -105,6 +107,7 @@ public class SitesRegisterManager {
 		System.out.println();
 		System.out.println("=================================================");
 		System.out.println("\t\t사이트 목록");
+		System.out.println("=================================================");
 		sd.getSitesTotalList();
 		System.out.println("=================================================");
 		System.out.println();
@@ -121,6 +124,7 @@ public class SitesRegisterManager {
 		int no; // 입력한 일련번호
 		System.out.println("=================================================");
 		System.out.println("\t\t사이트 목록");
+		System.out.println("=================================================");
 		sd.getSitesTotalList();
 		System.out.println("=================================================");
 		System.out.println();
@@ -134,6 +138,7 @@ public class SitesRegisterManager {
 		System.out.println();
 		System.out.println("=================================================");
 		System.out.println("\t\t사이트 목록");
+		System.out.println("=================================================");
 		sd.getSitesTotalList();
 		System.out.println("=================================================");
 		System.out.println();

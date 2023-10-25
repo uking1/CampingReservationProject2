@@ -50,7 +50,8 @@ public class InfoRegisterManager {
 		
 		System.out.println();
 		System.out.println("===========================================================");
-		System.out.println("예약자 정보");
+		System.out.println("\t\t\t예약자 정보");
+		System.out.println("===========================================================");
 		ido.getInfo(reservation_id, reservation_pw);
 		System.out.println("===========================================================");
 		System.out.println();
@@ -101,7 +102,8 @@ public class InfoRegisterManager {
 
 		System.out.println("예약자 정보 수정 완료!!");
 		System.out.println("===========================================================");
-		System.out.println("변경된 예약자 정보:");
+		System.out.println("\t\t\t변경된 예약자 정보:");
+		System.out.println("===========================================================");
 		InfoVO updatedInfo = ido.getInfo(reservation_id, reservation_pw);
 		System.out.println("===========================================================");
 
@@ -117,6 +119,8 @@ public class InfoRegisterManager {
 		pw = scan.nextLine();
 
 		if (pw.equals("admin")) {
+			System.out.println("===========================================================");
+			System.out.println("\t\t\t예약자 전체 목록");
 			System.out.println("===========================================================");
 			ido.getInfoTotalList();
 			System.out.println("===========================================================");

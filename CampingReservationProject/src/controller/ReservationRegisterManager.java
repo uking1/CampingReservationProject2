@@ -39,7 +39,8 @@ public class ReservationRegisterManager {
 
 				System.out
 						.println("==================================================================================");
-				System.out.println("내 예약 현황");
+				System.out.println("\t\t\t\t내 예약 현황");
+				System.out.println("==================================================================================");
 				List<ReservationVO> reservationList = rd.getReservationTotalList(id, pw);
 				System.out
 						.println("==================================================================================");
@@ -121,7 +122,8 @@ public class ReservationRegisterManager {
 
 		System.out.println();
 		System.out.println("==================================================================================");
-		System.out.println("예약 신청 현황");
+		System.out.println("\t\t\t\t예약 신청 현황");
+		System.out.println("==================================================================================");
 		rd.getReservationTotalList(id, pw);
 		System.out.println("==================================================================================");
 		System.out.println();
@@ -168,7 +170,8 @@ public class ReservationRegisterManager {
 
 		System.out.println();
 		System.out.println("==================================================================================");
-		System.out.println("예약 신청 목록");
+		System.out.println("\t\t\t\t예약 신청 목록");
+		System.out.println("==================================================================================");
 		rd.getReservationTotalList(id, pw);
 		System.out.println("==================================================================================");
 		System.out.println();
@@ -180,7 +183,8 @@ public class ReservationRegisterManager {
 		rd.setReservationDelete(no);
 
 		System.out.println("==================================================================================");
-		System.out.println("예약 신청 목록 현황");
+		System.out.println("\t\t\t\t예약 신청 목록 현황");
+		System.out.println("==================================================================================");
 		rd.getReservationTotalList(id, pw);
 		System.out.println("==================================================================================");
 		System.out.println();
